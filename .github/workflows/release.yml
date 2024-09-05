@@ -21,7 +21,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm
+        run: npm install
 
       - name: Creating .npmrc
         run: |
